@@ -7,3 +7,7 @@ Two different versions for the sake of practice and learning
 Built with [UIKit](https://github.com/KitsuneNoctus/Time-Task/tree/main/Time%26Task-UIKit)
 
 Built with [SwiftUI](https://github.com/KitsuneNoctus/Time-Task/tree/main/Time%26Task-SwiftUI)
+
+
+### Designs
+(TO BE ADDED)
