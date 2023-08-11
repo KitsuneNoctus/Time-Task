@@ -16,6 +16,10 @@
 		BAE6B4D92A86E0EA00285ACE /* Time_Task_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B4D82A86E0EA00285ACE /* Time_Task_UIKitTests.swift */; };
 		BAE6B4E32A86E0EA00285ACE /* Time_Task_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B4E22A86E0EA00285ACE /* Time_Task_UIKitUITests.swift */; };
 		BAE6B4E52A86E0EA00285ACE /* Time_Task_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B4E42A86E0EA00285ACE /* Time_Task_UIKitUITestsLaunchTests.swift */; };
+		BAE6B5342A86F10300285ACE /* TableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B5332A86F10300285ACE /* TableViewBuilder.swift */; };
+		BAE6B5382A86F23800285ACE /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B5372A86F23800285ACE /* NewEventViewController.swift */; };
+		BAE6B53A2A86F39E00285ACE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B5392A86F39E00285ACE /* LoginViewController.swift */; };
+		BAE6B53C2A86F3AF00285ACE /* UserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B53B2A86F3AF00285ACE /* UserAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BAE6B4DE2A86E0EA00285ACE /* Time&Task-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time&Task-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE6B4E22A86E0EA00285ACE /* Time_Task_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Task_UIKitUITests.swift; sourceTree = "<group>"; };
 		BAE6B4E42A86E0EA00285ACE /* Time_Task_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Task_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAE6B5332A86F10300285ACE /* TableViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewBuilder.swift; sourceTree = "<group>"; };
+		BAE6B5372A86F23800285ACE /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		BAE6B5392A86F39E00285ACE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAE6B53B2A86F3AF00285ACE /* UserAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,9 @@
 				BAE6B4BE2A86E0E600285ACE /* AppDelegate.swift */,
 				BAE6B4C02A86E0E600285ACE /* SceneDelegate.swift */,
 				BAE6B4C22A86E0E600285ACE /* ViewController.swift */,
+				BAE6B5322A86F0DE00285ACE /* TaskTableView */,
+				BAE6B5352A86F1DB00285ACE /* AccountView */,
+				BAE6B5362A86F1FD00285ACE /* NewEventView */,
 				BAE6B4CA2A86E0EA00285ACE /* Assets.xcassets */,
 				BAE6B4CC2A86E0EA00285ACE /* LaunchScreen.storyboard */,
 				BAE6B4CF2A86E0EA00285ACE /* Info.plist */,
@@ -125,6 +136,31 @@
 				BAE6B4E42A86E0EA00285ACE /* Time_Task_UIKitUITestsLaunchTests.swift */,
 			);
 			path = "Time&Task-UIKitUITests";
+			sourceTree = "<group>";
+		};
+		BAE6B5322A86F0DE00285ACE /* TaskTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6B5332A86F10300285ACE /* TableViewBuilder.swift */,
+			);
+			path = TaskTableView;
+			sourceTree = "<group>";
+		};
+		BAE6B5352A86F1DB00285ACE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6B5392A86F39E00285ACE /* LoginViewController.swift */,
+				BAE6B53B2A86F3AF00285ACE /* UserAccountViewController.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		BAE6B5362A86F1FD00285ACE /* NewEventView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6B5372A86F23800285ACE /* NewEventViewController.swift */,
+			);
+			path = NewEventView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE6B53A2A86F39E00285ACE /* LoginViewController.swift in Sources */,
 				BAE6B4C32A86E0E600285ACE /* ViewController.swift in Sources */,
 				BAE6B4BF2A86E0E600285ACE /* AppDelegate.swift in Sources */,
 				BAE6B4C92A86E0E600285ACE /* Time_Task_UIKit.xcdatamodeld in Sources */,
+				BAE6B5342A86F10300285ACE /* TableViewBuilder.swift in Sources */,
+				BAE6B53C2A86F3AF00285ACE /* UserAccountViewController.swift in Sources */,
+				BAE6B5382A86F23800285ACE /* NewEventViewController.swift in Sources */,
 				BAE6B4C12A86E0E600285ACE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
