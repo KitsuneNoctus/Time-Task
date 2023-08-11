@@ -16,6 +16,7 @@
 		BAE6B5142A86E12600285ACE /* Time_Task_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B5132A86E12600285ACE /* Time_Task_SwiftUITests.swift */; };
 		BAE6B51E2A86E12700285ACE /* Time_Task_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B51D2A86E12700285ACE /* Time_Task_SwiftUIUITests.swift */; };
 		BAE6B5202A86E12700285ACE /* Time_Task_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B51F2A86E12700285ACE /* Time_Task_SwiftUIUITestsLaunchTests.swift */; };
+		BAE6B5312A86E5D800285ACE /* newEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6B5302A86E5D800285ACE /* newEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BAE6B5192A86E12600285ACE /* Time&Task-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time&Task-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE6B51D2A86E12700285ACE /* Time_Task_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Task_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		BAE6B51F2A86E12700285ACE /* Time_Task_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Task_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAE6B5302A86E5D800285ACE /* newEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,10 @@
 		BAE6B4FC2A86E12400285ACE /* Time&Task-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BAE6B52F2A86E5BF00285ACE /* TaskBuilderViews */,
 				BAE6B4FD2A86E12400285ACE /* Time_Task_SwiftUIApp.swift */,
 				BAE6B4FF2A86E12400285ACE /* ContentView.swift */,
+				BAE6B52E2A86E47900285ACE /* TaskTableViews */,
 				BAE6B5012A86E12600285ACE /* Assets.xcassets */,
 				BAE6B5062A86E12600285ACE /* Persistence.swift */,
 				BAE6B5082A86E12600285ACE /* Time_Task_SwiftUI.xcdatamodeld */,
@@ -131,6 +135,21 @@
 				BAE6B51F2A86E12700285ACE /* Time_Task_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Time&Task-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		BAE6B52E2A86E47900285ACE /* TaskTableViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TaskTableViews;
+			sourceTree = "<group>";
+		};
+		BAE6B52F2A86E5BF00285ACE /* TaskBuilderViews */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6B5302A86E5D800285ACE /* newEventView.swift */,
+			);
+			path = TaskBuilderViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE6B5312A86E5D800285ACE /* newEventView.swift in Sources */,
 				BAE6B5072A86E12600285ACE /* Persistence.swift in Sources */,
 				BAE6B50A2A86E12600285ACE /* Time_Task_SwiftUI.xcdatamodeld in Sources */,
 				BAE6B5002A86E12400285ACE /* ContentView.swift in Sources */,
